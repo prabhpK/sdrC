@@ -1,0 +1,9 @@
+#!/bin/bash
+# Prabh Kaur 
+# /Users/charanjeetdhillon/Documents/MAvium/rawReads 
+
+# Using FastQC to look at the outputs of the trimmed files here
+#fastqcTrimmed contains all outputs
+fastqc -o fastqcTrimmed /Users/charanjeetdhillon/Documents/MAvium/trimmedReads/*paired_1.fastq
+fastqc -o fastqcTrimmed /Users/charanjeetdhillon/Documents/MAvium/trimmedReads/*paired_2.fastq
+
